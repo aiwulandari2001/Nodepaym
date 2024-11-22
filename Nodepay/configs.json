@@ -3,5 +3,6 @@
   "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 100,
   "rotateProxyForAllAccounts": false,
-  "proxyRotationInterval": 2
+  "proxyRotationInterval": 2,
+  "isSkipInvalidProxy": false,
 }
