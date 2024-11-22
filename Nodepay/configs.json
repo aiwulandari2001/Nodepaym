@@ -4,5 +4,5 @@
   "howManyAccountsRunInOneTime": 100,
   "rotateProxyForAllAccounts": false,
   "proxyRotationInterval": 2,
-  "isSkipInvalidProxy": false,
+  "isSkipInvalidProxy": false
 }
