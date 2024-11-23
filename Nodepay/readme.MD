@@ -32,15 +32,13 @@ To get started with the bot, follow these steps:
 
 ```json
 {
-  "rotateProxyForAllAccounts": false,
-  "proxyRotationInterval": 2,
   "timeZone": "en-US",
-  "delayEachAccount": [5, 8],
   "timeToRestartAllAccounts": 300,
-  "numberOfAccountsRunInOneTime": 100,
-  "isDoTasks": true,
-  "isPlayingGames": true,
-  "referralCode": "" // Your referral code, dont change it if you want to help me ^^
+  "howManyAccountsRunInOneTime": 100,
+  "isSkipInvalidProxy": false,
+  "rotateProxyForAllAccounts": true,
+  "proxyRotationInterval": 2,
+  "delayEachAccount": [5, 8]
 }
 ```
 
