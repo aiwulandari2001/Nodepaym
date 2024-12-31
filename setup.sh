@@ -31,12 +31,13 @@ create_default_configs() {
     cat > configs.json << EOL
 {
   "timeZone": "en-US",
-  "rotateProxy": false,
-  "skipInvalidProxy": false,
-  "proxyRotationInterval": 2,
-  "delayEachAccount": [1, 81],
   "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 10
+  "howManyAccountsRunInOneTime": 100,
+  "isSkipInvalidProxy": false,
+  "rotateProxyForAllAccounts": true,
+  "proxyRotationInterval": 2,
+  "delayEachAccount": [5, 8],
+  "retryOnErrorAccount": 5
 }
 EOL
 }
